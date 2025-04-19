@@ -13,3 +13,5 @@ class GetRequester:
     def load_json(self):
         body =self.get_response_body()
         return json.loads(body)
+
+        
